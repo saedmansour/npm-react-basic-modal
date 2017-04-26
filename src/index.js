@@ -32,8 +32,8 @@ class Modal extends React.Component {
 
 Modal.propTypes = {
     isConfirmation: PropTypes.bool,
-    confirmationConfirmCallback: PropTypes.fun,
-    confirmationCancelCallback: PropTypes.fun,
+    confirmationConfirmCallback: PropTypes.func,
+    confirmationCancelCallback: PropTypes.func,
     text: PropTypes.string
 };
 

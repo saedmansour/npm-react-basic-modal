@@ -9,7 +9,7 @@ import Modal from '../index';
 describe('Shallow Rendering', () => {
 
     it('to have class modal', () => {
-        const wrapper = shallow(<Modal isConfirmation='true' />);
+        const wrapper = shallow(<Modal />);
         expect(wrapper.find('.modal')).to.have.length(1);
     });
 });
