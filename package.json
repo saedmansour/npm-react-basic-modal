@@ -1,6 +1,6 @@
 {
   "name": "react-basic-modal",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "license": "MIT",
   "options": {
     "mocha": "--require scripts/mocha_runner src/**/__tests__/**/*.js"

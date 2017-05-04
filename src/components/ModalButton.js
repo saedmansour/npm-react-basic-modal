@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import modalStyles from '../../styles/modal.css';
+
 class ModalButton extends React.Component {
 
     componentDidMount() {
@@ -11,7 +13,7 @@ class ModalButton extends React.Component {
         var buttonText = this.props.text;
 
         return (
-          <button className='modal-button' onclick={onclick}>{buttonText}</button>
+          <button className={modalStyles.modalButton} onclick={onclick}>{buttonText}</button>
         )
     }
 

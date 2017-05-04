@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ModalMain from './components/ModalMain'
-import ModalButton from './components/ModalButton'
+import ModalMain from './components/ModalMain';
+import ModalButton from './components/ModalButton';
 
 class Modal extends React.Component {
 
